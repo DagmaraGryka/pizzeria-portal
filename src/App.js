@@ -1,5 +1,9 @@
+import React from "react";
+import MainLayout from "./components/layout/MainLayout/MainLayout";
+
 function App() {
   return (
+    <MainLayout>
     <div className="App">
       <header className="App-header">
         <p>
@@ -15,6 +19,7 @@ function App() {
         </a>
       </header>
     </div>
+    </MainLayout>
   );
 }
 
