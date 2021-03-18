@@ -12,7 +12,6 @@ $radius: 5px;
 $base-size: 12px;
 $transition: all 0.5s;
 
-$base-size: 12px;
 
 @mixin p-el($element) {
   &:#{$element}, &::#{$element} {
