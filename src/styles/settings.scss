@@ -12,11 +12,6 @@ $radius: 5px;
 $base-size: 12px;
 $transition: all 0.5s;
 
-h2 {
-  text-transform: uppercase;
-  text-align: center;
-}
-
 
 @mixin p-el($element) {
   &:#{$element}, &::#{$element} {
