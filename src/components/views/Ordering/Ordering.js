@@ -25,13 +25,13 @@ const Ordering = () => (
           <TableCell>
             <Grid container spacing={2} justify="center">
               <Grid item>
-                <Button variant="contained" color="secondary" size="small"  >
+                <Button variant="outlined" color="secondary" size="small"  >
                   <Link to={process.env.PUBLIC_URL + '/ordering/new'} >New Order</Link>
                 </Button>
               </Grid>
 
               <Grid item>
-                <Button variant="contained" color="secondary" size="small"  >
+                <Button variant="outlined" color="secondary" size="small"  >
                   <Link to={process.env.PUBLIC_URL + '/ordering/order/123abc'} >Order Id</Link>
                 </Button>
               </Grid>
