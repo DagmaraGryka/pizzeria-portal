@@ -7,15 +7,19 @@ import Grid from '@material-ui/core/Grid';
 const Ordering = () => (
   <div className={styles.component}>
     <h2>Ordering view</h2>
+
     <Grid container spacing={2} justify="center">
-    <Button variant="outlined" size='small' color="secondary">
-      <Link to={`${process.env.PUBLIC_URL}/ordering/booking/new`}> new order </Link>
-    </Button>
-    
-    
-    <Button variant="outlined" size='small' color="secondary">
-      <Link to={`${process.env.PUBLIC_URL}/ordering/booking/new`}> order id </Link>
-    </Button>
+      <Grid item>
+        <Button variant="outlined" size='small' color="secondary">
+          <Link to={`${process.env.PUBLIC_URL}/ordering/booking/new`}> new order </Link>
+        </Button>
+      </Grid>
+
+      <Grid item>
+        <Button variant="outlined" size='small' color="secondary">
+          <Link to={`${process.env.PUBLIC_URL}/ordering/booking/new`}> order id </Link>
+        </Button>
+      </Grid>
     </Grid>
   </div>
 );
