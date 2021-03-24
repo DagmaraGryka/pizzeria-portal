@@ -35,4 +35,5 @@ const Tables = () => (
   </div>
 );
 
+
 export default Tables;
